@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="355438da-1e45-47b6-ab58-aa19e8a5a7a0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Logist/LogistUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/CargoLogistUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/CargoTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/TopGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaMentor/Cargo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaMentor/Main$CargoLogistUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaMentor/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMentor/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cargo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="301">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,11 +36,99 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cargo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cargo.java">
+      <file leaf-file-name="CargoLogistUnit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/CargoLogistUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="483">
+              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+              <folding>
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Truck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Truck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogistUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Logist/LogistUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/TopGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CargoTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/CargoTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cargo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Cargo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CargoBundleModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CargoBundleModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -54,7 +151,16 @@
         <option value="$PROJECT_DIR$/src/CargoBundle.java" />
         <option value="$PROJECT_DIR$/src/CargoBundleModel.java" />
         <option value="$PROJECT_DIR$/src/Cargo.java" />
+        <option value="$PROJECT_DIR$/src/Truck.java" />
+        <option value="$PROJECT_DIR$/src/CargoLogistUnit.java" />
+        <option value="$PROJECT_DIR$/src/LogistUtils.java" />
+        <option value="$PROJECT_DIR$/src/Logist/CargoLogistUnit.java" />
+        <option value="$PROJECT_DIR$/src/Model/CargoLogistUnit.java" />
+        <option value="$PROJECT_DIR$/src/Model/Truck.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Model/CargoTree.java" />
+        <option value="$PROJECT_DIR$/src/Model/topGraph.java" />
+        <option value="$PROJECT_DIR$/src/Logist/LogistUtils.java" />
       </list>
     </option>
   </component>
@@ -78,7 +184,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,12 +198,23 @@
               <item name="JavaMentor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaMentor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaMentor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Logist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaMentor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaMentor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,12 +300,22 @@
       <option name="presentableId" value="Default" />
       <updated>1556219060428</updated>
       <workItem from="1556219063941" duration="8012000" />
-      <workItem from="1556228450652" duration="620000" />
+      <workItem from="1556228450652" duration="809000" />
+      <workItem from="1556391084227" duration="2097000" />
+      <workItem from="1556447800181" duration="11969000" />
     </task>
+    <task id="LOCAL-00001" summary="Добавил пояснительные комментарии">
+      <created>1556229184955</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556229184955</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8632000" />
+    <option name="totallyTimeSpent" value="22887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -195,32 +323,32 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.10130719" />
       <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3224401" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12260128" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.12473348" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39978212" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Messages" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,12 +357,70 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавил пояснительные комментарии" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил пояснительные комментарии" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Model/Truck.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Cargo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CargoBundleModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="37" column="145" selection-start-line="37" selection-start-column="145" selection-end-line="37" selection-end-column="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Cargo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -245,7 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cargo.java">
+    <entry file="file://$PROJECT_DIR$/src/Model/Cargo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
@@ -259,6 +445,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CargoBundleModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -266,17 +461,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cargo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        <state relative-caret-position="301">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/CargoTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/TopGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Cargo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/CargoLogistUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding>
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Truck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logist/LogistUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

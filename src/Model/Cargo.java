@@ -1,3 +1,5 @@
+package Model;
+
 public class Cargo {
     private String name;
     private int weight;
