@@ -1,6 +1,4 @@
-package Model;
-
-import Model.Cargo;
+package model;
 
 import java.util.ArrayList;
 

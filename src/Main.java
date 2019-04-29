@@ -1,7 +1,7 @@
-import Logist.LogistUtils;
-import Model.Cargo;
-import Model.CargoTree;
-import Model.Truck;
+import logist.LogistUtils;
+import model.Cargo;
+import model.CargoTree;
+import model.Truck;
 
 import java.util.ArrayList;
 import java.util.Scanner;

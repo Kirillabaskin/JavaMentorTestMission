@@ -1,15 +1,15 @@
-package Logist;
+package logist;
 
-import Model.*;
+import model.*;
 
 import java.util.ArrayList;
 
 public class LogistUtils {
     public static boolean isContains(Cargo cargo, CargoLogistUnit end) {
-        if (end.getPrev() == null) {
-            return false;
-        } else if (end.getUnit() == cargo) {
+        if (end.getUnit() == cargo) {
             return true;
+        } else if (end.getPrev() == null) {
+            return false;
         } else {
             return isContains(cargo, end.getPrev());
         }
